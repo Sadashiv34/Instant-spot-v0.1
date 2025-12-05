@@ -1,0 +1,7 @@
+{
+  "name": "Instant Spot ",
+  "description": "Discover nearby tourist attractions instantly with AI-powered guides and interactive maps.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /explore/
+Sitemap: https://instantspot.tech/sitemap.xml
