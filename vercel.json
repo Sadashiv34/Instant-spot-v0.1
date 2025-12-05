@@ -16,10 +16,6 @@
       "source": "/contact",
       "destination": "/contact.html"
     },
-    {
-      "source": "/explore(/(.*))?",
-      "destination": "/index.html"
-    },
     
   ]
 }
