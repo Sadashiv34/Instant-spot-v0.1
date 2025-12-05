@@ -19,7 +19,6 @@
     {
       "source": "/explore(/(.*))?",
       "destination": "/index.html"
-    },
-    
+    }
   ]
 }
