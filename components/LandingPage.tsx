@@ -217,11 +217,19 @@ const LandingPage: React.FC<LandingPageProps> = ({ onEnter }) => {
        </div>
 
        {/* Links Section */}
-       <div className="z-20 flex flex-wrap items-center justify-center gap-4 md:gap-8 mb-16 px-4">
-          <a href="/privacy-policy" className="text-xs text-gray-500 hover:text-green-400 transition-colors">Privacy Policy</a>
-          <a href="/terms" className="text-xs text-gray-500 hover:text-green-400 transition-colors">Terms & Services</a>
-          <a href="/contact" className="text-xs text-gray-500 hover:text-green-400 transition-colors">Contact Us</a>
-          <a href="/about" className="text-xs text-gray-500 hover:text-green-400 transition-colors">About Us</a>
+      <div className="z-20 flex flex-wrap items-center justify-center gap-4 md:gap-8 mb-16 px-4">
+          <a href="/privacy-policy.html" className="text-xs text-gray-500 hover:text-green-400 transition-colors">
+    Privacy Policy
+  </a>
+          <a href="/terms.html" className="text-xs text-gray-500 hover:text-green-400 transition-colors">
+    Terms & Services
+  </a>
+           <a href="/contact.html" className="text-xs text-gray-500 hover:text-green-400 transition-colors">
+    Contact Us
+  </a>
+          <a href="/about.html" className="text-xs text-gray-500 hover:text-green-400 transition-colors">
+    About Us
+  </a>
        </div>
 
        <div className="absolute bottom-4 z-20 flex gap-4 text-[10px] md:text-xs text-gray-600">
