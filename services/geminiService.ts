@@ -1,3 +1,4 @@
+/// <reference types="vite/client" />
 
 
 export interface SpotGuideData {
@@ -22,16 +23,7 @@ export const generateSpotGuide = async (placeName: string, locationContext: stri
     }
 
     // Safe API Key Access
-    let apiKey = "";
-    try {
-        // @ts-ignore
-        if (typeof process !== 'undefined' && process.env && process.env.API_KEY) {
-             // @ts-ignore
-            apiKey = process.env.API_KEY;
-        }
-    } catch (e) {
-        console.warn("process.env.API_KEY access failed, checking alternatives or fail.");
-    }
+    let apiKey = import.meta.env.VITE_API_KEY;
 
     if (!apiKey) {
         console.error("Gemini API Key is missing. Please ensure process.env.API_KEY is configured.");
