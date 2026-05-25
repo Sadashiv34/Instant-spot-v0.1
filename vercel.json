@@ -17,7 +17,7 @@
       "destination": "/contact.html"
     },
     {
-      "source": "/explore(/(.*))?",
+        "source": "/explore/:path*",
       "destination": "/index.html"
     }
   ]
